@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Create project</h2>
+            <p>Deploy your new project in one-click.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="project-name">Name</label>
+                    <input type="text" id="project-name" placeholder="Name of your project" required>
+                </div>
+                <div class="form-group">
+                    <label for="framework">Framework</label>
+                    <select id="framework" required>
+                        <option value="" disabled selected>Select</option>
+                        <option value="tamila">First</option>
+                        <option value="tamila1">Second</option>
+                        <option value="tamila2">Third</option>
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="cancel">Cancel</button>
+                    <button type="submit" class="deploy">Deploy</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

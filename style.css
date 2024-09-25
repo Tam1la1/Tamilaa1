@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171717;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #000000;
+    border: 1px solid #393737;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.19);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #555050;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1d1d;
+    border: 1px solid #525252;
+    border-radius: 6px;
+    color: #fcf1f1;
+}
+
+.form-group input::placeholder {
+    color: #666;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel {
+    background-color: transparent;
+    border: 1px solid #8a8585;
+    color: #6c6b6b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cancel:hover {
+    background-color: hsla(246, 98%, 53%, 0.331);
+    color: #eee4e4;
+}
+
+.deploy {
+    background-color: hsl(330, 1%, 28%);;
+    border: none;
+    color: #f1e5e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.deploy:hover {
+    background-color: #9d9a9a;
+}
